@@ -63,7 +63,6 @@ El proyecto fue desarrollado como una Single Page Application (SPA) sencilla, ut
 El sistema incluye distintas reglas de negocio que fueron implementadas utilizando lógica de programación:
 
 * Los perros pueden ser:
-
   * Chico (1 cupo)
   * Mediano (2 cupos)
   * Grande (4 cupos)
@@ -77,7 +76,6 @@ El sistema incluye distintas reglas de negocio que fueron implementadas utilizan
 * Los perros grandes y pequeños no pueden ser asignados al mismo paseador si la combinación no es compatible según las reglas establecidas.
 
 * Las contrataciones pueden encontrarse en diferentes estados:
-
   * Pendiente
   * Aprobado
   * Cancelado
@@ -107,7 +105,6 @@ Durante el desarrollo del proyecto se trabajó con:
 
 ```text
 Rutas-Felices/
-
 │
 ├── index.html
 ├── paseadores.js
@@ -120,57 +117,25 @@ Rutas-Felices/
 │       └── imagenes del proyecto
 │
 └── README.md
-```
-
----
-
-## ¿Cómo ejecutar el proyecto?
-
-1. Clonar el repositorio:
-
-```bash
-git clone URL_DEL_REPOSITORIO
-```
-
-2. Abrir la carpeta del proyecto.
-
-3. Ejecutar el archivo:
-
-```text
-index.html
-```
-
-No es necesario instalar dependencias ni utilizar ningún framework.
-
----
-
-## Capturas de pantalla
-
-
-```markdown
-![Login](/assets/img/login.png)
-
-![Registro-Cliente](/assets/img/registro.png)
-
-![Menu-Cliente](/assets/img/menuCliente.png)
-
-![Contrataciones-Cliente](/assets/img/contratacionPaseador.png)
-
-![Mis-Contratos-Cliente](/assets/img/misContratos.png)
-
-![Contrato-Pendiente-Paseador](/assets/img/contratoPendiente.png)
-
-![Resumen-Paseador](/assets/img/resumen.png)
-
-
-
 
 
 
 
 
 ```
+![Login](assets/img/login.png)
 
+![Registro-Cliente](assets/img/registro.png)
+
+![Menu-Cliente](assets/img/menuCliente.png)
+
+![Contrataciones-Cliente](assets/img/contratacionPaseador.png)
+
+![Mis-Contratos-Cliente](assets/img/misContratos.png)
+
+![Contrato-Pendiente-Paseador](assets/img/contratoPendiente.png)
+
+![Resumen-Paseador](assets/img/resumen.png)
 ---
 
 ## Lo que aprendí con este proyecto
