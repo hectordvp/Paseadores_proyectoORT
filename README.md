@@ -148,19 +148,19 @@ No es necesario instalar dependencias ni utilizar ningún framework.
 
 
 ```markdown
-![Login](assets/img/login.png)
+![Login](OBLIGATORIOP1/assets/img/login.png)
 
-![Registro-Cliente](assets/img/registro.png)
+![Registro-Cliente](OBLIGATORIOP1/assets/img/registro.png)
 
-![Menu-Cliente](assets/img/menuCliente.png)
+![Menu-Cliente](OBLIGATORIOP1/assets/img/menuCliente.png)
 
-![Contrataciones-Cliente](assets/img/contratacionPaseador.png)
+![Contrataciones-Cliente](OBLIGATORIOP1/assets/img/contratacionPaseador.png)
 
-![Mis-Contratos-Cliente](assets/img/misContratos.png)
+![Mis-Contratos-Cliente](OBLIGATORIOP1/assets/img/misContratos.png)
 
-![Contrato-Pendiente-Paseador](assets/img/contratoPendiente.png)
+![Contrato-Pendiente-Paseador](OBLIGATORIOP1/assets/img/contratoPendiente.png)
 
-![Resumen-Paseador](assets/img/resumen.png)
+![Resumen-Paseador](OBLIGATORIOP1/assets/img/resumen.png)
 
 
 
