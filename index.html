@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="obligatorio Programacion 1">
+  <link rel="stylesheet" href="assets/css/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <title>Rutas Felices</title>
+</head>
+<body>
+
+  <section id="login" class="seccion">
+    <h2>Bienvenido a</h2>
+    <h1>Rutas Felices</h1>
+    <form id="formLogin">
+      <label>Usuario:</label>
+      <input type="text" id="txtUsuario"><br>
+      <label>Contraseña:</label>
+      <input type="password" id="txtPass">
+      <input type="button" id="btningresar" value="Ingresar">
+    </form>
+    <p id="msgLogin" class="mensaje"></p>
+    <hr>
+    <p>¿No tenés cuenta? ¡Registrate acá!</p>
+    <input type="button" id="btnRegistroCliente" value="Registrarse">
+  </section>
+
+  <section id="registrarse" class="seccion">
+    <h1>Registrarse</h1>
+    <form id="formregistro">
+      <label>Nombre:</label>
+      <input type="text" id="txtregistronombre"><br>
+      <label>Usuario:</label>
+      <input type="text" id="txtregistrousuario"><br>
+      <label>Contraseña:</label>
+      <input type="password" id="txtRegistroPass"><br>
+      <label>Nombre Perro:</label>
+      <input type="text" id="txtregistrperro"><br>
+      <label>Tamaño:</label>
+      <select id="slctamaño">
+        <option value="zzz">Seleccione una opción</option>
+        <option value="chico">Chico</option>
+        <option value="mediano">Mediano</option>
+        <option value="grande">Grande</option>
+      </select>
+    </form>
+    <p id="msgRegistro" class="mensaje"></p>
+    <input type="button" id="btnRegistro" value="Registrar">
+    <input type="button" id="cerrarsesionregistro" value="Volver al Login">
+  </section>
+
+  <section id="perfilCliente" class="seccion">
+    <h1>Menu Cliente</h1>
+    <h2 id="bienvenidaCliente"></h2>
+    <p id="msgCliente" class="mensaje"></p>
+    <input type="button" id="btnContratarPaseador" value="Contratar Paseador"><br>
+    <input type="button" id="btnVerMisContrataciones" value="Ver mis contrataciones"><br>
+    <input type="button" id="cerrarSesionCliente" value="Cerrar sesión">
+  </section>
+
+  <section id="pantallaContratarPaseador" class="seccion">
+    <h2>Paseadores Disponibles</h2>
+    <p id="mostrarTabla"></p><br>
+    <input type="button" id="volverpantallacliente" value="Volver">
+  </section>
+
+  <section id="pantallaMisContrataciones" class="seccion">
+    <h2>Mis Contrataciones</h2>
+    <p id="tablaMisContrataciones"></p>
+    <input type="button" id="volverMisContrataciones" value="Volver">
+  </section>
+
+  <section id="perfilPaseador" class="seccion">
+    <h1>Menu Paseador</h1>
+    <h2 id="bienvenidaPaseador"></h2>
+    <input type="button" id="btnvercontratos" value="Ver Contratos"><br>
+    <input type="button" id="btnResumenAsignados" value="Ver resumen de perros asignados"><br>
+    <input type="button" id="cerrarSesionPaseador" value="Cerrar sesión">
+  </section>
+
+  <section id="pantallaAprobarContratos" class="seccion">
+    <h2>Contratos Pendientes</h2>
+    <p id="msgContratos" class="mensaje"></p>
+    <p id="tablaContratosPendientes"></p>
+    <input type="button" id="volverContratosPendientes" value="Volver">
+  </section>
+
+  <section id="pantallaResumenAsignados" class="seccion">
+    <h2>Resumen de Contratos</h2>
+    <p id="tablaPerrosAsignados"></p>
+    <p id="saldoPaseador"></p>
+    <input type="button" id="volverDesdeResumen" value="Volver">
+  </section>
+
+  <script src="paseadores.js"></script>
+</body>
+</html>
