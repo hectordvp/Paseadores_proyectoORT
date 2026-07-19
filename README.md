@@ -120,21 +120,29 @@ Rutas-Felices/
 
 
 
+## Capturas de pantalla
 
 
 ```
+#### Pantalla Login
 ![Login](assets/img/login.png)
 
+#### Formulario de Registro de Clientes
 ![Registro-Cliente](assets/img/registro.png)
 
+#### Menú Principal del Cliente
 ![Menu-Cliente](assets/img/menuCliente.png)
 
+#### Sección de Contrataciones (Cliente)
 ![Contrataciones-Cliente](assets/img/contratacionPaseador.png)
 
+#### Listado de Mis Contratos
 ![Mis-Contratos-Cliente](assets/img/misContratos.png)
 
+#### Solicitudes Pendientes del Paseador
 ![Contrato-Pendiente-Paseador](assets/img/contratoPendiente.png)
 
+#### Resumen de Trabajo del Paseador
 ![Resumen-Paseador](assets/img/resumen.png)
 ---
 
